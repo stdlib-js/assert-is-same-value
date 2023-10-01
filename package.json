@@ -38,8 +38,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
+    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/bench": "^0.1.0",
     "@stdlib/boolean-ctor": "^0.1.0",
     "@stdlib/number-ctor": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
