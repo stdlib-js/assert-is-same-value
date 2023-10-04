@@ -35,14 +35,30 @@ limitations under the License.
 
 > Test if two arguments are the same value.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-same-value
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-value@esm/index.mjs';
+var isSameValue = require( '@stdlib/assert-is-same-value' );
 ```
 
 #### isSameValue( a, b )
@@ -101,13 +117,8 @@ bool = isSameValue( NaN, NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import isSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-value@esm/index.mjs';
+```javascript
+var isSameValue = require( '@stdlib/assert-is-same-value' );
 
 var bool = isSameValue( true, true );
 // returns true
@@ -141,10 +152,6 @@ bool = isSameValue( [], [] );
 
 bool = isSameValue( isSameValue, isSameValue );
 // returns true
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -175,7 +182,7 @@ bool = isSameValue( isSameValue, isSameValue );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -205,8 +212,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-same-value.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-same-value
 
-[test-image]: https://github.com/stdlib-js/assert-is-same-value/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-is-same-value/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-is-same-value/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/assert-is-same-value/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-same-value/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-same-value?branch=main
@@ -239,9 +246,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-same-value-zero]: https://github.com/stdlib-js/assert-is-same-value-zero/tree/esm
+[@stdlib/assert/is-same-value-zero]: https://github.com/stdlib-js/assert-is-same-value-zero
 
-[@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert-is-strict-equal/tree/esm
+[@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert-is-strict-equal
 
 <!-- </related-links> -->
 
