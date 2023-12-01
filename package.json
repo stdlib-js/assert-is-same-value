@@ -39,7 +39,7 @@
   "dependencies": {},
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/boolean-ctor": "^0.1.1",
     "@stdlib/number-ctor": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
