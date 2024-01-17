@@ -36,10 +36,15 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@stdlib/assert-is-complex-like": "^0.1.1",
+    "@stdlib/complex-base-assert-is-same-value": "^0.1.0"
+  },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.1.1",
     "@stdlib/boolean-ctor": "^0.1.1",
+    "@stdlib/complex-float32": "^0.1.1",
+    "@stdlib/complex-float64": "^0.1.1",
     "@stdlib/number-ctor": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

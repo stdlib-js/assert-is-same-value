@@ -105,7 +105,7 @@ bool = isSameValue( NaN, NaN );
 
 ## Notes
 
--   The function implements the [SameValue Algorithm][ecma-262-same-value-algorithm] as specified in ECMAScript 5.
+-   The function implements the [SameValue Algorithm][ecma-262-same-value-algorithm] (as specified in ECMAScript 5), with support for [complex number][@stdlib/complex] objects.
 
 </section>
 
@@ -243,6 +243,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-same-value/main/LICENSE
 
 [ecma-262-same-value-algorithm]: http://ecma-international.org/ecma-262/5.1/#sec-9.12
+
+[@stdlib/complex]: https://github.com/stdlib-js/complex
 
 <!-- <related-links> -->
 
