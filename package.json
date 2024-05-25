@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-is-complex-like": "^0.2.1",
-    "@stdlib/complex-base-assert-is-same-value": "^0.2.1"
+    "@stdlib/complex-float64-base-assert-is-same-value": "github:stdlib-js/complex-float64-base-assert-is-same-value#main"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.1",
