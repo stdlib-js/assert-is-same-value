@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-value@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-same-value/tags). For example,
+
+```javascript
 import isSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-value@v0.2.2-esm/index.mjs';
 ```
 
@@ -107,7 +112,7 @@ bool = isSameValue( NaN, NaN );
 <body>
 <script type="module">
 
-import isSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-value@v0.2.2-esm/index.mjs';
+import isSameValue from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-same-value@esm/index.mjs';
 
 var bool = isSameValue( true, true );
 // returns true
