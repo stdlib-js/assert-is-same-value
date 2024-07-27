@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-same-value",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Test if two arguments are the same value.",
   "license": "Apache-2.0",
   "author": {
@@ -38,14 +38,14 @@
   },
   "dependencies": {
     "@stdlib/assert-is-complex-like": "^0.2.1",
-    "@stdlib/complex-float64-base-assert-is-same-value": "github:stdlib-js/complex-float64-base-assert-is-same-value#main"
+    "@stdlib/complex-float64-base-assert-is-same-value": "^0.0.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.1",
-    "@stdlib/boolean-ctor": "^0.2.1",
-    "@stdlib/complex-float32-ctor": "github:stdlib-js/complex-float32-ctor#main",
-    "@stdlib/complex-float64-ctor": "github:stdlib-js/complex-float64-ctor#main",
-    "@stdlib/number-ctor": "^0.2.1",
+    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/boolean-ctor": "^0.2.2",
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float64-ctor": "^0.0.2",
+    "@stdlib/number-ctor": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
