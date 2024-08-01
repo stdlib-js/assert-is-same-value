@@ -37,19 +37,19 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-complex-like": "^0.2.1",
+    "@stdlib/assert-is-complex-like": "^0.2.2",
     "@stdlib/complex-float64-base-assert-is-same-value": "^0.0.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/boolean-ctor": "^0.2.2",
     "@stdlib/complex-float32-ctor": "^0.0.2",
-    "@stdlib/complex-float64-ctor": "^0.0.2",
+    "@stdlib/complex-float64-ctor": "^0.0.3",
     "@stdlib/number-ctor": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.1"
+    "@stdlib/bench-harness": "^0.2.2"
   },
   "engines": {
     "node": ">=0.10.0",
