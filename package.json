@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-complex-like": "^0.2.3",
-    "@stdlib/complex-float64-base-assert-is-same-value": "^0.0.3"
+    "@stdlib/complex-float64-base-assert-is-same-value": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.3",
